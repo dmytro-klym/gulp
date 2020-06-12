@@ -1,0 +1,53 @@
+.footer {
+   margin-top: 180px;
+}
+
+.container_footer {
+   display: flex;
+   justify-content: space-between;
+   font-family: "Montserrat", sans-serif;
+   // padding-top: 150px;
+}
+
+.btn {
+   font-weight: 700x;
+   margin: 10px 0px;
+   padding: 14px 32px;
+   background-color: #95e1d3;
+   color: #ffffff;
+   @include txt(uppercase);
+}
+
+.footer_logo {
+   margin-top: 24px;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.last_word {
+   color: #f38181;
+}
+
+.color_text {
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: italic;
+   font-size: 15px;
+}
+form {
+   font-size: 0;
+}
+form input {
+   outline: none;
+   width: 230px;
+   height: 42px;
+}
+.btn {
+   font-size: 14px;
+   font-weight: 700;
+   margin: 10px 0px;
+   padding: 14px 32px;
+   background-color: #95e1d3;
+   color: #ffffff;
+   @include txt(uppercase);
+}
